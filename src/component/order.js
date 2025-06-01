@@ -2,8 +2,10 @@ import '../style.css';
 function Order(props){
     return (
     <div className="order_box">
-        <h1 className="order_name">{props.name}</h1>
+        <p className="order_name txt">{props.name}</p>
+        <p className='company_name txt'>{props.company}</p>
+        <p className='email txt'>{props.email}</p>
     </div>
-    )
+    );
 }
 export default Order;

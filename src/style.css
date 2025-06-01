@@ -1,9 +1,9 @@
 .order_box{
     height: 100px;
     width: 300px;
-    padding: 2px;
     border-radius: 20px;
     background-color: rgb(48, 48, 48);
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -12,17 +12,16 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     padding: 50px;
+    column-gap: 10px;
+    row-gap: 10px;
     overflow: hidden;
+}
+
+.txt{
+    font-weight: bold;
+    margin: 5px 15px;
 }
 
 body{
     background-color: aliceblue;
-}
-
-.order_name{
-    margin-left: 20px;
-    margin-top: 10px;
-    font-size: 25px;
-    color: white;
-    display: block;
 }
