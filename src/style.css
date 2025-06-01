@@ -1,0 +1,28 @@
+.order_box{
+    height: 100px;
+    width: 300px;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: rgb(48, 48, 48);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    overflow: hidden;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.order_name{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
